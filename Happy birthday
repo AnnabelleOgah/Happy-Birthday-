@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe4e1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #ff69b4;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #ff1493;
+            margin-top: -10px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .balloons {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .balloon {
+            width: 50px;
+            height: 70px;
+            margin: 10px;
+            background-color: #f08080;
+            border-radius: 50%;
+            position: relative;
+            animation: float 2s infinite ease-in-out;
+        }
+
+        .balloon:before {
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: 22px;
+            width: 6px;
+            height: 20px;
+            background-color: #333;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .button {
+            margin-top: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #ff69b4;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Happy Birthday! 🎉</h1>
+        <h2>Mercy Essien</h2>
+        <p>Wishing you a day filled with love, laughter, my love your new age shall bring you joy,happiness,and success.<br>Meeting you has made so much inpact in my life.You show up for people and you include everyone.You are more than an amazing person, Confident, goal driven, you're funny, you talk a lot and i think thats one of your greatest traits<br>Your favorite color purple says so much about you, it's a color of royalty, and you carry yourself with so much confidence and grace my love, every shade of purple represents every shade of you, your personality, the you you embody both known and unknown as we all have parts of ourself that we find as we grow.<br>
+            How amazing it is that you make people smile, laugh and be happy all because you exist. We are lucky to have you in our lives my love.<br>I pray you achieve all your goals, you cross every bridge, overcome every obstacle. That Youtube money is coming girllll, i am rooting for you my love.<br>I love you so much, have a wonderful day, be happy, Abba got you ❤️</p>
+        <div class="balloons">
+            <div class="balloon" style="background-color: #ff7f50;"></div>
+            <div class="balloon" style="background-color: #ff1493;"></div>
+            <div class="balloon" style="background-color: #87cefa;"></div>
+            <div class="ballon"
+style="background-color: #800080;">    </div>   
+        </div>
+        <div class="button">
+            <a href="https://example.com">Send Your Wishes!</a>
+        </div>
+</body>
+</html>
